@@ -1,29 +1,29 @@
+
 <html lang="vh">
 <head>
 <meta charset="utf-8">
-	<meta name="viewport" content="width=devcie-width, initial-scale=1.0"	>
-<title>Thiết kế web</title>
-<link href="style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=devcie-width, initial-scale=1.0">
+	<link rel="stylesheet" href="web.css">
+<title>Trang web baby three</title>
 </head>
 
 <body>
 	<header>
-	<div class="logo">
-		<img src="images/logo.jpg" alt="Logo" width="100">
-	  </div>
-		<nav class="menu">
-		<ul>
-			<li><a href="#">Trang chủ</a></li>
-			<li><a href="#">Tin tức</a></li>
-			<li><a href="#">Sản Phẩm</a></li>
-			<li><a href="#">Dịch vụ</a></li>
-			<li><a href="#">Liên hệ</a></li>
-		  </ul>
+	<div class="a">
+		<img src="../kimngan/shopshin.jpg" alt="logo" width="30">
+		</div>
+		<nav class="b">
+			<ul>
+					<li><a href="#">Trang chủ</a></li>
+					<li><a href="#">Giới Thiệu</a></li>
+					<li><a href="#">Sản phẩm</a></li>
+					<li><a href="#">Liên hệ</a></li>
+			</ul>
 		</nav>
 	</header>
-	<div class="container">
-	  <div class="col1">
-			<div class="search-bar">
+<div class="c">
+		<div class="col1">
+			<div class="timkiem">
 			<from action="/search" method="GET">
 	<input type="text" name="query" placeholder="Tìm kiếm bài viết....">
 	<button type="submit">Tìm kiếm</button>
@@ -31,31 +31,28 @@
 		</div>
 			<h2>BÀI VIẾT HIỆN TẠI</h2>
 			<div class="post">
-				<img src="images/1.jpg" alt="Capuchino" width="50%">
-				<p>Cappuccino là thức uống cà phê được làm từ sữa đã được đánh nóng và một shot espresso.</p>
+				<img src="../kimngan/tho.jpg" alt="thỏ hồng" width="50% ">
+				<p>thỏ hồng</p>
+		</div>
+			<div class="post">
+				<img src="../kimngan/heo.jpg" alt="heo hồng" width="50">
+				<p>heo hồng</p>
 			</div>
 			<div class="post">
-				<img src="images/3.jpg"	alt="Cà phê bọt biển" width="50% ">
-				<p>Cà phê bọt biển, hay còn gọi là cà phê Dalgona, xuất hiện lần đầu tiên tại Hàn Quốc vào đầu năm 2020.</p>
+				<img src="../kimngan/ho.jpg" alt="hổ" width="50">
+				<p>hổ</p>
 			</div>
 			<div class="post">
-				<img src="images/4.jpg" alt="MATCHA LATTE ĐÁ" width="50%">
-				<p>Lấy cảm hứng từ những hạt cà phê say nồng, vị đăng đắng cùng chút chát nhẹ từ những lá trà xanh tuyệt hảo. </p>			
+				<img src="../kimngan/khunglong.jpg" alt="khủng long" width="50">
+				<p>khủng long</p>
 			</div>
-		  <div class="post">
-			  <img src="images/5.jpg" alt="Cà phê sương sáo" width="50% ">
-			  <p>Cà phê sữa đá thạch là một biến thể sáng tạo và thú vị của đồ uống phổ biến tại Việt Nam - cà phê sữa đá.  </p>
-		  </div>
-		    </div>
-		  <div class="col2">
-			  <img src="images/1.jpg" alt="Hình ảnh bài viết" width="100%">
-			  <p>Cappuccino là thức uống cà phê được làm từ sữa đã được đánh nóng và một shot espresso....</p>
-		
-		</div>	
-	</div>
+			</div>
+			<div class="col2">
+				<img src="../kimngan/shopshin.jpg" alt="shinshop" width="120">
+				<p>shopshin</p>
 	<footer>
-		<p><b>Copyright kimngan</b></p>
+		<p><b>Copyright Lê KIm Ngân</b></p>
 		<p><b>Lớp QT22TC3.6</b></p>
-	</footer>
+</footer>
 </body>
 </html>
